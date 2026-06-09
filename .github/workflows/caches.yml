@@ -9,7 +9,7 @@ jobs:
     name: job to test the cache
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@4.1.1
+      - uses: actions/checkout@v6.0.3
       - uses: actions/cache@v5
         id: generateCache
         with:
